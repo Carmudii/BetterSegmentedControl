@@ -15,4 +15,7 @@ s.platform         = :ios, '9.0'
 s.requires_arc     = true
 s.source_files     = 'Pod/Classes/**/*'
 s.frameworks       = 'UIKit'
+s.pod_target_xcconfig = {
+  'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES'
+}
 end
